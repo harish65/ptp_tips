@@ -1,0 +1,65 @@
+.ad-box {
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      to bottom,
+      #000000b7,
+      #1428418f
+    ),
+    /* bottom, image */
+      url(https://smartbettingguide.com/app/uploads/2019/04/Horse-Race-Betting.jpg);
+  background-size: cover;
+}
+
+#container {
+  margin-bottom: 0 !important;
+}
+
+.GOOGLE button {
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+
+  align-items: center;
+  color: rgba(0, 0, 0, 0.54);
+  box-shadow: 0px !important;
+  padding: 0px;
+  border-radius: 2px;
+  border: 0px solid transparent !important;
+  // font-size: 0.9vw;
+  font-weight: 800;
+  font-family: Roboto, sans-serif;
+
+}
+
+button.GOOGLE div {
+  // background-color: #44bd32 !important;
+  display: none;
+  
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.GOOGLE {
+  
+
+  // background-color: #44bd32 !important;
+  width: auto;
+  margin-bottom: 10px;
+  height: auto;
+  text-align: center !important;
+  border-radius: 5px !important;
+  border: 0 !important;
+  background-color: rgb(255, 255, 255);
+}
+.GOOGLE span {
+ margin-left: 15px;
+ margin-right: 10px;
+ color:#142841;
+ font-weight: 800;
+
+}
+
+.GOOGLE :hover {
+ color: #44bd32;
+}
+

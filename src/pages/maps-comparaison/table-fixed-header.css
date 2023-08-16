@@ -1,0 +1,52 @@
+.view {
+  margin: auto;
+  width: 70%;
+}
+
+.wrapper {
+  position: relative;
+  overflow: auto;
+  /*border: 1px solid black;*/
+  white-space: nowrap;
+}
+
+.sticky-col{
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #111228;
+}
+
+
+.first-col {
+  /*width: 100px;*/
+  /*min-width: 100px;*/
+  /*max-width: 100px;*/
+  left: 0px;
+}
+
+.second-col {
+  /*width: 150px;*/
+  /*min-width: 150px;*/
+  /*max-width: 150px;*/
+  /*left: 100px;*/
+}
+
+.table-wrapper{
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 400px;
+}
+
+.table-wrapper th{
+  position: sticky;
+  top: 0;
+  background: #1a82e2;
+}
+
+.form-control-xs {
+  height: calc(1em + .375rem + 2px) !important;
+  padding: .125rem .25rem !important;
+  font-size: .90rem !important;
+  line-height: 1.5;
+  border-radius: .2rem;
+}

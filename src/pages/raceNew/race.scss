@@ -1,0 +1,49 @@
+.races {
+  margin-top: -16px;
+  // margin-left: 2px;
+  padding: 5px;
+  //for mobile responsive
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
+}
+
+.selector {
+  width: 100%;
+  text-align: center;
+}
+
+.signup-box {
+  background: linear-gradient(to bottom, #000000ec, #00000054),
+    url(https://wallpaperaccess.com/full/2107540.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-sps {
+  background: linear-gradient(to bottom, #000000ec, #00000054),
+    url("../../styles/assets/sps.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#racehead {
+  text-align: justify;
+  align-content: flex-start;
+}
+
+#hr-abnd {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  margin-bottom: 20px;
+}

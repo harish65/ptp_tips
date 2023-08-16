@@ -1,0 +1,49 @@
+.odds-button {
+  background-color: rgba(168, 168, 168, 0.178) !important;
+  border-color: transparent !important;
+}
+
+.odds-button:hover {
+  background-color: rgba(168, 168, 168, 0.082) !important;
+}
+
+.colored {
+  background-color: rgba(128, 128, 128, 0.096);
+}
+
+
+.tablefirstcol {
+  border-right: 2.5px solid #eef0f8;
+  
+}
+
+
+.tablerow {
+  border-bottom: 2.5px solid #eef0f8;
+  border-top: 2.5px solid #eef0f8;
+}
+
+
+
+
+.wrapper {
+  position: relative;
+  overflow-x: auto;
+  // border: 1px solid black;
+  white-space: nowrap;
+
+}
+
+.sticky-col {
+  z-index: 1;
+  // position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+}
+
+.first-col {
+  width: 18%;
+  min-width: 18%;
+  max-width: 18%;
+  left: 0px;
+}

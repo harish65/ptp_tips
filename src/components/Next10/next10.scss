@@ -1,0 +1,76 @@
+.selectons {
+  overflow-x: hidden; //horizontal
+}
+
+.text-muted.title {
+  font-weight: 700;
+}
+
+.SportsBetting {
+  color: #e12b80;
+  font-weight: bold;
+  min-width: 3px;
+  min-height: 3px;
+}
+
+.Unibet {
+  color: black;
+  font-weight: bold;
+  min-width: 3px;
+  min-height: 3px;
+}
+
+.clock {
+  color: white;
+}
+
+.next10card:hover {
+  transform: scale(0.95);
+}
+
+.head {
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.text_blue {
+  color: #0f72b5 !important;
+  font-weight: 500;
+  font-size: 11px;
+}
+.text_green {
+  font-weight: 800;
+  color: green !important;
+}
+.button:hover {
+  color: green;
+  border: 1px solid green;
+}
+.button {
+  background-color: white;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 4px;
+  text-align: center;
+  color: #b5b5c3;
+  border: 1px solid #b5b5c3;
+}
+.track {
+  color: #0f72b5 !important;
+  font-weight: 500;
+  font-size: 13px;
+}
+.box-shadow {
+  box-shadow: 0 1.8px 6.2px rgba(0, 0, 0, 0.034),
+    0 1.7px 6.3px rgba(0, 0, 0, 0.048), 0 1.5px 6px rgba(0, 0, 0, 0.06),
+    // 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    // 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    // 0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}

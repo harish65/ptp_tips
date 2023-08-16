@@ -1,0 +1,24 @@
+.box{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        to bottom,
+        #000000ec, 
+        #00000054
+    ),
+    /* bottom, image */
+    url(https://wallpaperaccess.com/full/2107540.jpg);
+    align-items: center;
+}
+
+.pointer:hover{
+    cursor:pointer;
+}
+
+.show-password{
+    position: absolute;
+    left: auto;
+    right: 10px;
+    text-indent: 32px;
+    top: 20px;
+}

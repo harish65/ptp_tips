@@ -1,0 +1,11 @@
+export { default as GeneralInfo } from "./GeneralInfo";
+export { default as Features } from "./Features";
+export { default as ProsAndCons } from "./ProsAndCons";
+export { default as CustomerSupport } from "./CustomerSupport";
+export { default as Review } from "./Review";
+export { default as Website } from "./Website";
+export { default as MobileApps } from "./MobileApps";
+export { default as LicensingAndSecurity } from "./LicensingAndSecurity";
+export { default as PaymentMethods } from "./PaymentMethods";
+export { default as RegistrationSteps } from "./RegistrationSteps";
+export { default as VerificationSteps } from "./VerificationSteps";

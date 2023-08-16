@@ -1,0 +1,16 @@
+.box {
+  background:
+   /* top, transparent red, faked with gradient */ linear-gradient(
+    to bottom,
+    #000000ec,
+    #00000049
+  );
+}
+
+// .box {
+//   background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sbs.com.au%2Flanguage%2Fenglish%2Fshort-history-of-melbourne-cup&psig=AOvVaw0f9u6oDm01CHaXg-r2Z7i_&ust=1635621324815000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjJvL-q8PMCFQAAAAAdAAAAABAS");
+// }
+.box {
+  overflow-x: hidden;
+  text-align: justify;
+}

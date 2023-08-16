@@ -1,0 +1,44 @@
+.bookmaker-details-root {
+   color: #3f4254;
+
+   h4.section-header {
+      font-size: 19px;
+      font-weight: 600;
+      margin: 0 0 22px;
+      color: saddlebrown;
+      text-decoration: underline;
+   }
+   h5.section-sub-header {
+      font-weight: 600;
+      color: #3f4254;
+      font-size: 17px;
+
+   }
+   // pros-cons
+   .bookmaker-highlights {
+      img {
+         width: 40px;
+         height: 40px;
+         position: absolute;
+         top: -18px;
+         right: -5px;
+      }
+      h6 {
+         font-size: 14px;
+         margin: 4px;
+         color: #142841;
+      }
+      &.pros {
+         border: 1px solid #58bd33;
+         border-radius: 4px;
+         padding: 6px;
+         color: #44bd32;
+      }
+      &.cons {
+         color: #ed6868;
+         border: 1px solid #ed6868;
+         border-radius: 6px;
+         padding: 6px;
+      }
+   }
+}

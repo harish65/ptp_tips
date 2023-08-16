@@ -1,0 +1,156 @@
+.bookmakers-root {
+   .bookmaker-list {
+      .no-data {
+         min-height: 410px;
+         display: flex;
+         flex-wrap: wrap;
+         align-content: center;
+         color: #ed6868;
+      }
+      .bookmaker-card {
+         background: #fff;
+         margin-bottom: 1.875rem;
+         display: block;
+         // min-height: 362px;
+         border: 1px solid #d1d1d1;
+         box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+         -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+         -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+         border-radius: 3px;
+         -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+
+         &:hover {
+            cursor: pointer;
+            box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.16);
+         }
+         .logo-rating-review {
+            margin: 18px 0;
+            img.bookmaker-logo {
+               width: 180px;
+               height: 90px;
+               border-radius: 4px;
+               margin: 0 auto;
+            }
+            .star-rating {
+               margin: 16px 0px;
+               h4 {
+                  font-weight: 700;
+                  margin: 6px 0 0;
+                  font-size: 2rem;
+               }
+            }
+            button.review-btn {
+               font-weight: 600;
+               border-radius: 43px;
+               font-size: 12px;
+               text-transform: capitalize;
+               font-family: poppins;
+            }
+         }
+         .bookmaker-info {
+            h3.b-name {
+               font-weight: 700;
+               color: #da3b7b;
+               font-size: 1.5rem;
+               overflow: hidden;
+            }
+            p.b-desc {
+               font-weight: 500;
+               color: #696969;
+            }
+            h4.highlight-tag {
+               font-weight: 700;
+               color: #142841;
+               font-size: 1.25rem;
+               overflow: hidden;
+               text-align: center;
+               margin: 18px 0;
+            }
+            .bookmaker-highlights {
+               img {
+                  width: 40px;
+                  height: 40px;
+                  position: absolute;
+                  top: -18px;
+                  right: -5px;
+               }
+               h6 {
+                  font-size: 13px;
+                  margin: 4px;
+                  color: #142841;
+               }
+               &.pros {
+                  border: 1px solid #58bd33;
+                  border-radius: 4px;
+                  padding: 6px;
+                  color: #44bd32;
+               }
+               &.cons {
+                  color: #ed6868;
+                  border: 1px solid #ed6868;
+                  border-radius: 6px;
+                  padding: 6px;
+               }
+            }
+         }
+
+         .bookmaker-link {
+            text-align: center;
+            h5.bonus-text {
+               color: #ed6868;
+               font-weight: 600;
+               margin: 8px 0;
+               font-size: 1.125rem;
+               animation: opacity 3s ease-in-out infinite;
+               opacity: 1;
+            }
+            button.btn-bonus {
+               background: #0a0a0a;
+               color: #f8e71c;
+               padding: 12px 0;
+               width: 100%;
+               font-size: 1.025rem;
+               font-family: poppins;
+               max-width: 150px;
+               display: block;
+               margin: 0 auto 8px;
+            }
+            a.term-link {
+               font-size: 11px;
+               &:hover {
+                  opacity: 0.8;
+                  text-decoration: underline !important;
+               }
+            }
+         }
+      }
+   }
+   .bookmakers-pagination {
+      margin: 0px 0 20px;
+      .MuiPagination-ul {
+         justify-content: center;
+         .MuiPaginationItem-page {
+            font-weight: 600;
+            &.Mui-selected {
+               background-color: #132841;
+               color: white;
+            }
+         }
+      }
+   }
+}
+
+@keyframes opacity {
+   0% {
+      opacity: 1;
+   }
+
+   50% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}

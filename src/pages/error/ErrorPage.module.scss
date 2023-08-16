@@ -1,0 +1,44 @@
+//@import '../../styles/app';
+
+.errorPage {
+  padding-top: 5%;
+  height: 100vh;
+}
+
+.errorContainer {
+  width: 365px;
+  text-align: center;
+}
+
+.errorBtn {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.errorCode {
+  margin: 20px;
+  font-size: 80px;
+  font-weight: 400;
+  color: black;
+}
+
+.errorInfo {
+  font-size: 20px;
+  color: red;
+}
+
+.errorHelp {
+  color: red;
+  font-size: 14px;
+}
+
+.pageFooter {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 12;
+  color: green;
+  text-align: center;
+}

@@ -1,0 +1,108 @@
+.card-label{
+    font-size: 18px;
+    font-weight: bold;
+    color:#142841;
+    font-family: Poppins;
+    margin-top:-10px;
+    padding: 0px !important;
+    margin-bottom: -10px;
+    // border-radius: 8px;
+}
+.card{
+    padding :0px
+}
+.card-header{
+   
+    background-color: white;
+    padding: 0px;
+    // margin-top: -100;
+    margin-bottom: -10px;
+    border: 0px;
+}
+
+.page-head{
+    // padding: 48px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+
+.bullet-pt{
+    margin-top: 16px;
+}
+
+.faq-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    //position: fixed;
+}
+
+.faq-text{
+    text-align: left;
+}
+
+.social-text{
+    text-align: left;
+    margin-left:100;
+}
+
+.social-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.send-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .faq-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .faq-text{
+        text-align: center;
+    }
+    
+    .social-text{
+        text-align: center;
+    }
+   
+    .social-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .send-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
+
+  .signup-box{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        to bottom,
+        #000000ec, 
+        #00000054
+    ),
+    /* bottom, image */
+    url(https://wallpaperaccess.com/full/2107540.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }

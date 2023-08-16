@@ -1,0 +1,251 @@
+.ant-table.ant-table-middle .ant-table-thead > tr > th {
+  padding: 0px 0px !important;
+}
+.ant-table.ant-table-middle .ant-table-tbody > tr > td {
+  padding: 0px 0px !important;
+}
+.result-card {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.bookie-logo {
+  max-width: 35px;
+}
+.table_venue {
+  background-color: transparent;
+  color: black;
+  text-align: "center";
+  font-size: 13px;
+  padding: 10px;
+}
+.table_result {
+  background-color: transparent;
+  color: black;
+  text-align: "center";
+  font-size: 13px;
+  padding: 10px;
+}
+.table_selections {
+  background-color: transparent;
+  color: black;
+  text-align: "center";
+  font-size: 13px;
+  padding: 10px;
+  min-width: 220px;
+  display: flex;
+  justify-content: flex-start;
+}
+.table_race {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+}
+.table_bookie {
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+}
+.table_first {
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  min-width: 90px;
+}
+.table_second {
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  min-width: 90px;
+}
+.table_third {
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  min-width: 90px;
+}
+.table_odds {
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  min-width: 90px;
+}
+.table_cond {
+  background-color: transparent;
+  color: black;
+  text-align: "center";
+  font-size: 13px;
+  padding: 10px;
+}
+.table_cell_selections {
+  text-align: right;
+  padding: 0px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.table_tba {
+  color: black;
+  justify-content: center;
+  display: flex;
+  padding: 8px 4px;
+  font-size: 12px;
+}
+.spacing {
+  padding: 8px 4px;
+  font-size: 12px;
+  text-align: right;
+  margin: 0px;
+}
+.spacing1 {
+  padding: 0px 4px;
+  font-size: 12px;
+  text-align: right;
+  margin: 0px;
+}
+.spacing2 {
+  text-align: right;
+  padding: 0px;
+  font-size: 12px;
+  color: black;
+}
+.first {
+  padding: 8px 4px;
+  font-size: 12px;
+  text-align: right;
+  margin: 0px;
+}
+.na {
+  justify-content: center;
+  display: flex;
+  color: red;
+  padding: 8px 4px;
+  font-size: 12px;
+}
+.abnd {
+  justify-content: center;
+  display: flex;
+  color: orange;
+  padding: 8px 4px;
+  font-size: 12px;
+}
+.condition {
+  justify-content: center;
+  display: flex;
+}
+.numbering {
+  font-weight: 700;
+  padding: 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+.fodds {
+  padding: 0px;
+  text-align: right;
+  margin-right: 10px;
+}
+.fnum {
+  padding: 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+.pointer :hover {
+  cursor: pointer;
+}
+input {
+  border-radius: 6px !important;
+  border-width: 1px;
+  border-color: lightgrey;
+  text-align: center;
+}
+.forward:hover {
+  color: #44bd32;
+}
+.nav-link.active {
+  background-color: #44bd32 !important;
+  padding: 4px 6px !important;
+  font-size: 13px;
+}
+.nav-link {
+  padding: 4px 6px !important;
+  justify-content: space-around;
+  font-size: 13px;
+}
+.card-header {
+  padding: 0px;
+}
+.card-body {
+  padding: 18px 8px;
+}
+.expand {
+  background-color: transparent;
+}
+.close {
+  background-color: transparent;
+}
+.ant-table.ant-table-middle {
+  border-radius: 10px;
+}
+.ant-table-content {
+  border-radius: 10px;
+}
+
+.box {
+  background: 
+        /* top, transparent red, faked with gradient */ linear-gradient(
+      to bottom,
+      #000000ec,
+      #00000049
+    ),
+    /* bottom, image */
+      url(https://assets.onyamagazine.com/wp-content/uploads/2015/10/29041412/2011-emirates-melbourne-cup-please-credit-photo-www-sdpmedia-com-au.jpg);
+  background-size: cover;
+}
+
+.foddsdh {
+  padding: 0px;
+  text-align: right;
+  margin-right: 10px;
+  color: black;
+}
+.fnumdh {
+  padding: 0px;
+  text-align: left;
+  margin-left: 10px;
+  color: black;
+}
+
+
+.binance {
+
+
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

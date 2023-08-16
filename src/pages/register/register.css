@@ -1,0 +1,13 @@
+.registerStripe {
+  width: 100%;
+
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #d2d8dd;
+}
+

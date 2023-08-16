@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  .profile_table_style table {
+    width: 100%; /* Optional */
+  }
+  
+  .profile_table_style tbody td, .profile_table_style thead th {
+    width: 12.5%;  /* Optional */
+    text-align: center;
+  }
+  
+  .profile_table_style thead, .profile_table_style tbody { 
+    display: block; 
+    width: 100% !important;
+  }
+  
+  .profile_table_style tbody{
+    background-color: white;
+    text-align: center;
+  }
+  
+  .profile_table_style th{
+    margin-left: 100px !important;
+  }
+  
+  .profile_table_style tr{
+    width: 100% !important;
+  }
+  
+  .profile_table_style tbody {
+      max-height: 400px;       /* Just for the demo          */
+      overflow-y: auto;    /* Trigger vertical scroll    */
+      overflow-x: hidden;  /* Hide the horizontal scroll */
+  }

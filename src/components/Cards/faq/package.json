@@ -1,0 +1,7 @@
+{
+    "name": "faqCard",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./faqCard.js"
+  }
+  

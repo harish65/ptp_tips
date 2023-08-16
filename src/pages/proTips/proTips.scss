@@ -1,0 +1,90 @@
+.pro-tips-table {
+  max-width: 720px;
+  margin: 0 auto;
+
+  .MuiTable-root {
+    .MuiTableHead-root {
+      .muitablecell-root {
+        border-left: 1px solid #d3d3d3;
+        padding: 16px 8px;
+        background: #0c2461;
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: Poppins;
+        border-radius: 4px;
+      }
+    }
+
+    .MuiTableBody-root {
+      .MuiTableRow-root {
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+        .MuiTableCell-body {
+          border-left: 1px solid #d3d3d3;
+          padding: 8px 8px;
+          font-size: 14px;
+          font-weight: 600;
+          font-family: Poppins;
+          border-radius: 4px;
+
+          &.r-info {
+            background-color: #b71540;
+          }
+          &.r-select {
+            background-color: #b8e994;
+          }
+          &.r-ewing {
+            background-color: #4a69bd;
+          }
+          &.r-select-soft {
+            background-color: #78e08f;
+          }
+          &.r-ewins {
+            background-color: #e55039;
+          }
+          &.r-select-syn {
+            background-color: #f8c291;
+          }
+          &.r-winsy {
+            background-color: #079992;
+          }
+        }
+      }
+    }
+  }
+
+  .MuiChip-root {
+    height: 18px;
+    border-radius: 4px;
+    margin: 2px 2px;
+
+    &.date-chip {
+    }
+    &.time-chip {
+    }
+    &.track-chip {
+    }
+    &.race-no-chip {
+    }
+    span {
+      font-weight: 600;
+      font-size: 12px;
+      padding: 4px 6px;
+      height: 24px;
+      font-family: Poppins;
+    }
+  }
+
+  .MuiTablePagination-root {
+    background: #0c246169;
+    p,
+    .MuiTablePagination-select {
+      font-size: 12px;
+      font-weight: 500;
+      font-family: Poppins;
+    }
+  }
+}

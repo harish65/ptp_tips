@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+.home-table table {
+  width: 100%; /* Optional */
+  
+}
+
+.home-table tbody td, .home-table thead th {
+  width: 12.5%;  /* Optional */
+  text-align: center;
+  
+}
+
+thead th { position: sticky; top: 0; }
+
+.home-table thead, .home-table tbody { 
+  width: 100% !important;
+  
+}
+
+.home-table tbody{
+  background-color: white;
+  text-align: center;
+}
+
+.home-table th{
+  margin-left: 100px !important;
+  
+}
+
+.home-table tr{
+  width: 100% !important;
+}
+
+.home-table tbody {
+    max-height: 400px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+
+.signup_box{
+  background: 
+  /* top, transparent red, faked with gradient */ 
+  linear-gradient(
+      to bottom,
+      #000000ec, 
+      #00000054
+  ),
+  /* bottom, image */
+  url(https://wallpaperaccess.com/full/2107540.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+ }
+
+ 

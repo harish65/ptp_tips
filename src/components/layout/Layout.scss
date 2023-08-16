@@ -1,0 +1,30 @@
+.button {
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 4px;
+    text-align: center;
+    color: #b5b5c3;
+    border: 1px solid #b5b5c3;
+}
+
+.button:hover {
+    color: green;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.customInputCheck {
+    color: "white";
+}
+
+
+.next10 {
+    height: 900px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.next10::-webkit-scrollbar {
+    display: none;
+}

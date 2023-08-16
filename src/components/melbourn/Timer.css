@@ -1,0 +1,62 @@
+.timer {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  text-align: right;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  height: 40px;
+  margin-left: 50px;
+  max-height: fit-content;
+  max-height: auto;
+}
+
+.timer > div {
+  background-color: #142841;
+  margin-right: 3px;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+  margin-top: 15px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  margin-top: 30px;
+}
+
+.timer > div > p {
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 10;
+  display: flex;
+}
+
+/*.expired {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  background-color: #142841;
+  justify-content: right;
+  text-align: centser;
+  display: grid;
+  width: fit-content;
+}*/
+
+/*.expired {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #142841;
+  width: 60px;
+}*/
+
+/* .box {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("melbourne,jpg");
+} */

@@ -1,0 +1,100 @@
+.boxPromo {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    // linear-gradient(
+    //     to bottom,
+    //     #000000ec, 
+    //     #00000054
+    // ),
+    /* bottom, image */ url(https://a1s.unicdn.net/polopoly_fs/1.1622648.1603853082!/rfpimage/2967041490.jpg);
+  align-items: center;
+  background-size: cover;
+  background-position: 100 -300px;
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+  color: blue !important;
+}
+
+.dropdown-toggle.btn.btn-secondary {
+  background-color: transparent !important;
+  border-color: transparent;
+  padding: 0px;
+  padding-bottom: 0px;
+}
+
+.btn.btn-secondary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0px;
+}
+
+.trial {
+  margin-right: 10px;
+  input {
+    width: 300px;
+  }
+}
+
+.trial-mobile {
+  // margin-right: 10px;
+  input {
+    width: 100%;
+  }
+}
+
+.signup_box {
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      to bottom,
+      #000000ec,
+      #00000054
+    ),
+    /* bottom, image */ url(https://wallpaperaccess.com/full/2107540.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sps_box {
+  // background: 
+  //   // /* top, transparent red, faked with gradient */ linear-gradient(
+  //   //   to bottom,
+  //   //   #000000ec,
+  //   //   #00000054
+  //   // ),
+  //   /* bottom, image */ url(../image/sps.jpg);
+  background-position-y: 40%;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.content {
+  //for removinf the padding inside the search bar
+  padding: 0 !important;
+}
+
+.linknav {
+  text-decoration: none;
+  outline: 0;
+  color: white;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: color 0.4s ease-out, border-bottom-color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out, border-bottom-color 0.4s ease-out;
+  -ms-transition: color 0.4s ease-out, border-bottom-color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out, border-bottom-color 0.4s ease-out;
+  transition: color 0.4s ease-out, border-bottom-color 0.4s ease-out;
+  &:hover {
+    color: white;
+    border-bottom: solid 1px white;
+  }
+}
+
+

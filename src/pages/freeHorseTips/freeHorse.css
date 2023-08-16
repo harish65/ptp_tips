@@ -1,0 +1,15 @@
+.sign_box{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        to bottom,
+        #000000ec, 
+        #00000054
+    ),
+    /* bottom, image */
+    url(https://wallpaperaccess.com/full/2107540.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }

@@ -1,0 +1,48 @@
+.topbar-item.toggle {
+    background-color:transparent;
+    border-width: 0px;;
+}
+
+
+.topbar-item.toggle.btn.btn-secondary{
+    background-color: transparent;
+}
+.topbar-item.toggle.btn.btn-secondary:hover{
+    background-color: transparent !important;
+}
+.topbar-item.toggle.btn.btn-secondary::after{
+    background-color: red !important;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+.checkbox-inline.remember{
+    margin-top: 24px;
+}
+
+.login-btn{
+    background-color: #142841 !important;
+    color: white;
+    margin-top: 24px;
+}
+
+#password{
+    margin-top: 24px;
+}
+
+.menu-text{
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .btn.btn-hover-transparent-white:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-hover-transparent-white:focus:not(.btn-text), .btn.btn-hover-transparent-white.focus:not(.btn-text){
+        background-color: transparent !important;
+     }
+  }
+
+
